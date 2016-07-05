@@ -7,19 +7,13 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-	<script src="jquery.js"></script> 
-    <script> 
-	    $(function(){
-	      $("#navbar").load("navbar.html"); 
-	    });
-    </script> 
-
 	<title>Needful things!</title>
 </head>
 <body>
   <div class="container" ng-controller="AppCtrl">
+	<!-- https://github.com/LexmarkWeb/csi.js/blob/master/src/csi.js -->
 	<nav class="navbar navbar-inverse">
-		<div id="navbar"></div>
+		<div data-include="style/navbar.html"></div>
 	</nav>
 
     <h1 class="centered">Needful Things</h1>
