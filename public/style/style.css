@@ -5,4 +5,13 @@
 .brand {
 	width: 130;
 	height: 35;
+	padding-bottom: 15;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.rightered {
+    text-align: right;
 }
